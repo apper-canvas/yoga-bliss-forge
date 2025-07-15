@@ -1,0 +1,167 @@
+[
+  {
+    "Id": 1,
+    "type": "studio",
+    "date": "2024-01-15T10:00:00Z",
+    "time": "10:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 12,
+    "bookedCount": 8,
+    "price": 2
+  },
+  {
+    "Id": 2,
+    "type": "studio",
+    "date": "2024-01-15T18:00:00Z",
+    "time": "6:00 PM",
+    "duration": 60,
+    "trainerId": 2,
+    "maxCapacity": 12,
+    "bookedCount": 10,
+    "price": 2
+  },
+  {
+    "Id": 3,
+    "type": "personal",
+    "date": "2024-01-15T09:00:00Z",
+    "time": "9:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 1,
+    "bookedCount": 0,
+    "price": 20
+  },
+  {
+    "Id": 4,
+    "type": "studio",
+    "date": "2024-01-16T10:00:00Z",
+    "time": "10:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 12,
+    "bookedCount": 5,
+    "price": 2
+  },
+  {
+    "Id": 5,
+    "type": "studio",
+    "date": "2024-01-16T18:00:00Z",
+    "time": "6:00 PM",
+    "duration": 60,
+    "trainerId": 2,
+    "maxCapacity": 12,
+    "bookedCount": 7,
+    "price": 2
+  },
+  {
+    "Id": 6,
+    "type": "personal",
+    "date": "2024-01-16T15:00:00Z",
+    "time": "3:00 PM",
+    "duration": 60,
+    "trainerId": 3,
+    "maxCapacity": 1,
+    "bookedCount": 0,
+    "price": 20
+  },
+  {
+    "Id": 7,
+    "type": "studio",
+    "date": "2024-01-17T10:00:00Z",
+    "time": "10:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 12,
+    "bookedCount": 6,
+    "price": 2
+  },
+  {
+    "Id": 8,
+    "type": "personal",
+    "date": "2024-01-17T11:00:00Z",
+    "time": "11:00 AM",
+    "duration": 60,
+    "trainerId": 2,
+    "maxCapacity": 1,
+    "bookedCount": 0,
+    "price": 20
+  },
+  {
+    "Id": 9,
+    "type": "studio",
+    "date": "2024-01-18T10:00:00Z",
+    "time": "10:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 12,
+    "bookedCount": 4,
+    "price": 2
+  },
+  {
+    "Id": 10,
+    "type": "studio",
+    "date": "2024-01-18T18:00:00Z",
+    "time": "6:00 PM",
+    "duration": 60,
+    "trainerId": 2,
+    "maxCapacity": 12,
+    "bookedCount": 9,
+    "price": 2
+  },
+  {
+    "Id": 11,
+    "type": "personal",
+    "date": "2024-01-18T14:00:00Z",
+    "time": "2:00 PM",
+    "duration": 60,
+    "trainerId": 3,
+    "maxCapacity": 1,
+    "bookedCount": 0,
+    "price": 20
+  },
+  {
+    "Id": 12,
+    "type": "studio",
+    "date": "2024-01-19T10:00:00Z",
+    "time": "10:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 12,
+    "bookedCount": 3,
+    "price": 2
+  },
+  {
+    "Id": 13,
+    "type": "personal",
+    "date": "2024-01-19T16:00:00Z",
+    "time": "4:00 PM",
+    "duration": 60,
+    "trainerId": 2,
+    "maxCapacity": 1,
+    "bookedCount": 0,
+    "price": 20
+  },
+  {
+    "Id": 14,
+    "type": "studio",
+    "date": "2024-01-20T10:00:00Z",
+    "time": "10:00 AM",
+    "duration": 60,
+    "trainerId": 1,
+    "maxCapacity": 12,
+    "bookedCount": 7,
+    "price": 2
+  },
+  {
+    "Id": 15,
+    "type": "studio",
+    "date": "2024-01-20T18:00:00Z",
+    "time": "6:00 PM",
+    "duration": 60,
+    "trainerId": 2,
+    "maxCapacity": 12,
+    "bookedCount": 11,
+    "price": 2
+  }
+]

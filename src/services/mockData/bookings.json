@@ -1,0 +1,114 @@
+[
+  {
+    "Id": 1,
+    "userId": 1,
+    "sessionId": 1,
+    "packageId": 1,
+    "totalAmount": 114,
+    "discountApplied": 5,
+    "paymentStatus": "completed",
+    "paymentMethod": "card",
+    "createdAt": "2024-01-10T10:00:00Z",
+    "session": {
+      "Id": 1,
+      "type": "studio",
+      "date": "2024-01-15T10:00:00Z",
+      "time": "10:00 AM",
+      "duration": 60,
+      "trainerId": 1,
+      "maxCapacity": 12,
+      "bookedCount": 8,
+      "price": 2
+    },
+    "package": {
+      "Id": 1,
+      "duration": 3,
+      "sessionsIncluded": 60,
+      "discountRate": 5
+    }
+  },
+  {
+    "Id": 2,
+    "userId": 1,
+    "sessionId": 6,
+    "packageId": 2,
+    "totalAmount": 540,
+    "discountApplied": 10,
+    "paymentStatus": "completed",
+    "paymentMethod": "upi",
+    "createdAt": "2024-01-12T15:00:00Z",
+    "session": {
+      "Id": 6,
+      "type": "personal",
+      "date": "2024-01-16T15:00:00Z",
+      "time": "3:00 PM",
+      "duration": 60,
+      "trainerId": 3,
+      "maxCapacity": 1,
+      "bookedCount": 0,
+      "price": 20
+    },
+    "package": {
+      "Id": 2,
+      "duration": 6,
+      "sessionsIncluded": 30,
+      "discountRate": 10
+    }
+  },
+  {
+    "Id": 3,
+    "userId": 1,
+    "sessionId": 9,
+    "packageId": 1,
+    "totalAmount": 114,
+    "discountApplied": 5,
+    "paymentStatus": "completed",
+    "paymentMethod": "card",
+    "createdAt": "2024-01-05T09:00:00Z",
+    "session": {
+      "Id": 9,
+      "type": "studio",
+      "date": "2024-01-18T10:00:00Z",
+      "time": "10:00 AM",
+      "duration": 60,
+      "trainerId": 1,
+      "maxCapacity": 12,
+      "bookedCount": 4,
+      "price": 2
+    },
+    "package": {
+      "Id": 1,
+      "duration": 3,
+      "sessionsIncluded": 60,
+      "discountRate": 5
+    }
+  },
+  {
+    "Id": 4,
+    "userId": 1,
+    "sessionId": 14,
+    "packageId": 3,
+    "totalAmount": 510,
+    "discountApplied": 15,
+    "paymentStatus": "completed",
+    "paymentMethod": "wallet",
+    "createdAt": "2024-01-08T14:00:00Z",
+    "session": {
+      "Id": 14,
+      "type": "studio",
+      "date": "2024-01-20T10:00:00Z",
+      "time": "10:00 AM",
+      "duration": 60,
+      "trainerId": 1,
+      "maxCapacity": 12,
+      "bookedCount": 7,
+      "price": 2
+    },
+    "package": {
+      "Id": 3,
+      "duration": 9,
+      "sessionsIncluded": 30,
+      "discountRate": 15
+    }
+  }
+]

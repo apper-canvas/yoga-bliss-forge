@@ -1,0 +1,30 @@
+[
+  {
+    "Id": 1,
+    "duration": 3,
+    "sessionsIncluded": 60,
+    "discountRate": 5,
+    "expiryDate": "2024-04-15T23:59:59Z"
+  },
+  {
+    "Id": 2,
+    "duration": 6,
+    "sessionsIncluded": 30,
+    "discountRate": 10,
+    "expiryDate": "2024-07-15T23:59:59Z"
+  },
+  {
+    "Id": 3,
+    "duration": 9,
+    "sessionsIncluded": 30,
+    "discountRate": 15,
+    "expiryDate": "2024-10-15T23:59:59Z"
+  },
+  {
+    "Id": 4,
+    "duration": 12,
+    "sessionsIncluded": 60,
+    "discountRate": 20,
+    "expiryDate": "2025-01-15T23:59:59Z"
+  }
+]
