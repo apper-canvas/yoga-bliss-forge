@@ -96,7 +96,7 @@ const Home = () => {
             size="lg"
             className="w-full sm:w-auto"
           >
-            <ApperIcon name="Plus" size="20" className="mr-2" />
+            <ApperIcon name="Plus" size={20} className="mr-2" />
             Book New Session
           </Button>
         </motion.div>
