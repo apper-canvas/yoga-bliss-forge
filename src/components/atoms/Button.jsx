@@ -1,37 +1,53 @@
-import React from "react";
-import { cn } from "@/utils/cn";
+import React from 'react'
+import { cn } from '@/utils/cn'
 
-const Button = React.forwardRef(({ className, variant = "primary", size = "md", children, ...props }, ref) => {
+const Button = React.forwardRef(({ 
+  children, 
+  className, 
+  variant = 'primary', 
+  size = 'md', 
+  disabled = false,
+  type = 'button',
+  ...props 
+}, ref) => {
   const variants = {
-    primary: "bg-gradient-to-r from-primary-500 to-secondary-500 text-white hover:from-primary-600 hover:to-secondary-600 premium-shadow",
-    secondary: "bg-gradient-to-r from-secondary-50 to-primary-50 text-primary-700 hover:from-secondary-100 hover:to-primary-100 border border-primary-200",
-    accent: "bg-gradient-to-r from-accent-400 to-accent-500 text-white hover:from-accent-500 hover:to-accent-600 premium-shadow",
-    outline: "border-2 border-primary-300 text-primary-600 hover:bg-primary-50 hover:border-primary-400",
-    ghost: "text-primary-600 hover:bg-primary-50 hover:text-primary-700"
-  };
-
+    primary: 'bg-primary-500 hover:bg-primary-600 text-white',
+    secondary: 'bg-secondary-500 hover:bg-secondary-600 text-white',
+    outline: 'border border-primary-500 text-primary-500 hover:bg-primary-50',
+    ghost: 'text-primary-500 hover:bg-primary-50'
+  }
+  
   const sizes = {
-    sm: "px-4 py-2 text-sm",
-    md: "px-6 py-3 text-base",
-    lg: "px-8 py-4 text-lg"
-  };
-
+    sm: 'px-3 py-1.5 text-sm',
+    md: 'px-4 py-2 text-base',
+    lg: 'px-6 py-3 text-lg'
+  }
+  
+  // Filter out custom props to prevent them from being passed to DOM
+  const {
+    variant: _variant,
+    size: _size,
+    ...domProps
+  } = props
+  
   return (
     <button
       ref={ref}
+      type={type}
+      disabled={disabled}
       className={cn(
-        "rounded-xl font-medium transition-all duration-200 ease-out transform hover:scale-105 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed",
+        'inline-flex items-center justify-center rounded-lg font-medium transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2 disabled:opacity-50 disabled:cursor-not-allowed',
         variants[variant],
         sizes[size],
         className
       )}
-      {...props}
+      {...domProps}
     >
       {children}
     </button>
-  );
-});
+  )
+})
 
-Button.displayName = "Button";
+Button.displayName = 'Button'
 
-export default Button;
+export default Button
