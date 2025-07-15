@@ -100,7 +100,7 @@ const CalendarView = ({ sessions, selectedSession, onSessionSelect, sessionType 
             <p className="text-gray-600">No sessions available for this date</p>
           </Card>
         ) : (
-          <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+<div className="grid grid-cols-2 md:grid-cols-3 gap-3">
             {availableSessions.map((session) => (
               <CalendarSlot
                 key={session.Id}
